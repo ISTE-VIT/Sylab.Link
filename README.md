@@ -1,29 +1,20 @@
-# SYLAB.LINK :
+# Sylab.Link
 
+<p align="center"><a href="https://istevit.in/" target="_blank">
+	<img src="https://ik.imagekit.io/pjbsfzv5ci/111881788-33353b80-89d8-11eb-9db1-746eba087b05_60cRdfJ_4C.png?updatedAt=1636800410212"> </a>
+</p>
 
-## Problem Statement:
-Before every exam, millions of students surf through google, trying to find relevant study materials and video links to prepare for their exams. This is an extremely time-consuming task, as the students have to check through millions of links trying to find the right one.
-What if there was some kind of solution to help these troubled students? A place where they could get all the links compiled in one place, separated according to their topics?
+Sylab.Link is a website which provides convenient and fast method by which students undergoing exam pressure can find their study material without any hassle, in just one click. Sylab.Link will make the process of finding the correct answer to the question easy and efficient, facilitating the whole process for the students.
 
-<br>
+<ul>
+<li>Providing a place where they could get all the links compiled in one place, separated according to their topics</li>
+<li>Providing an Image Scanning feature to detect and extract the text from the image whose png or jpg file that you uploaded.</li>
+<li>Running the extracted text through youtube and google and displaying the top 2 links found.</li>
+</ul>
 
-## Solution: 
-1. Upload image file in jpg or png format.<br>
+<hr>
 
-2. Text extraction is done through Tesseract OCR software, and the output is stored as a string.<br>
-
-3. The string is converted to a list, and topics are separated according to the modules.<br>
-
-4. The topics are being called through a loop, and given as a query for Google and YouTube search.<br>
-
-5. The top 2 links from both Google and YouTube searches are stored in a json file.<br>
-
-6. Axios is used to fetch the data from the json file.<br>
-
-7. The output is displayed on the website.
-<br>
-
-## Techstack:
+ ### Tech Stack 
 
 ●	Firebase - Database<br>
 ●	Node - Backend<br>
@@ -43,40 +34,17 @@ What if there was some kind of solution to help these troubled students? A place
 <img align="left" alt="express" padding="8px" width="48px" src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/express-logo-528x240.png"/><br>
 <br>
 <br>
+  <hr>
+  
+ <hr>
 
-# Installing Dependencies:
+ ### Contributors
 
-## Python libraries:
- 
-### Installing Tesseract:
- ```sh
-pip install tesseract
-```
-<br>
+- <a href="https://github.com/Krintox">Shashank Suggala</a>
+- <a href="https://github.com/kashish0603">Kashish Jain</a>
+- <a href="https://github.com/Uddipan1803">Uddipan Sarkar</a>
+- <a href="https://github.com/amaanmohdsyed2011">Amaan Mohd Syed</a>
 
-### Installing Pytesseract:
- ```sh
-pip install pytesseract
-``` 
-<br>
+ <hr>
 
-### Installing OpenCV:
- ```sh
-pip install opencv-python
-``` 
-<br>
-
-### Installing Searching Sources:
- ```sh
-pip install google
-``` 
-<br>
-
- ```sh
-pip install beautifulsoup4
-``` 
-<br>
-
- ```sh
-pip install pywhatkit
-``` 
+<h4 align="center">Made with ❤️ by ISTE VIT </h4>
